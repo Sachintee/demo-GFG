@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sekhawati Old Papers - BSc</title>
+    <style>
+        /* Styles for the BSc page */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #2834dc;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .year-block {
+            
+            border-radius: 10px;
+            padding: 10px;
+            margin: 10px;
+            width: calc(25% - 40px); /* 25% width minus margin and padding for 4 columns layout */
+            text-align: center;
+            transition: transform 0.3s;
+            }
+
+        .year-block h2 {
+            font-size: 1.5em;
+        }
+
+        .year-block ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .year-block li {
+            margin: 10px 0;
+        }
+
+        .year-block a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .year-block:hover {
+            transform: scale(1.05);
+        }
+
+        /* Different colors for each year block */
+        #first-year {
+            background-color: #2196F3; /* Blue */
+        }
+
+        #second-year {
+            background-color: #66BB6A; /* Green */
+        }
+
+        #third-year {
+            background-color: #FF7043; /* Orange */
+        }
+
+        /* Add more years and colors as needed */
+
+        @media (max-width: 900px) {
+            .year-block {
+                width: calc(33.33% - 40px); /* 3 columns layout */
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sekhawati Old Papers </h1>
+        <p>Access past exam papers for Stream</p>
+        <img src="Screenshot 2024-07-09 221051.png" alt="Website Logo" style="max-width: 100%; height: auto;">
+
+    </header>
+    <main>
+        <div class="container">
+            <div class="year-block" id="first-year">
+                <h2>First Year</h2>
+                <ul>
+                   
+                </ul>
+            </div>
+            <div class="year-block" id="second-year">
+                <h2>Second Year</h2>
+                
+            </div>
+            <div class="year-block" id="third-year">
+                <h2>Third Year</h2>
+                
+            </div>
+            <!-- Add more year blocks as needed -->
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Sekhawati Old Papers. All rights reserved.</p>
+    </footer>
+</body>
+</html>
